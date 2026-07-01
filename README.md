@@ -1,5 +1,7 @@
 # Triage
 
+![Triage Demo](docs/triage_demo.gif)
+
 **Ten thousand vulnerabilities, one honest answer: what do I patch first?** Triage scores an OT/ICS asset inventory against known vulnerabilities and ranks remediation by what actually matters — not just CVSS.
 
 Every OT security program drowns in the same way. A scanner returns a wall of
@@ -65,6 +67,8 @@ cross-cutting Log4Shell / VxWorks / Windows issues that live on OT-connected
 hosts) with representative scores; `update` makes them live.
 
 ## How the score is built
+
+![Triage Dashboard](docs/triage_hero.png)
 
 ```
   per (asset, CVE):
