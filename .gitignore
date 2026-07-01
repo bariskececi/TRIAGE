@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+triage_results.json
+.venv/
+venv/
+.env
+.pytest_cache/
+.DS_Store
